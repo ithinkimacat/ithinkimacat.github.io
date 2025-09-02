@@ -29,18 +29,30 @@
         }
         h2 {
             text-align: center;
+			background-color: #000000;
 			font-size: 1.5em;
             color: #2ecef2;
         }
+        h3 {
+            text-align: center;
+			font-size: 1.3em;
+            color: #FFFFFF;
+        }
+        h4 {
+            text-align: left;
+			background-color: #000000;
+			font-size: 0.6em;
+            color: #FFFFFF;
+        }
         p {
             text-align: center;
-			background-color: #050505;
+			background-color: #000000;
 			font-size: 1.1em;
             line-height: 1.6;
         }
         .services-list {
             list-style: none;
-            padding-left: 0;
+            padding-left: 3;
 			background-color: #050505;
             font-size: 1.1em;
             line-height: 1.8;
@@ -51,10 +63,47 @@
             text-align: left;
 			background-color: #050505;
 			font-size: 1.0em;
-            background-image: url('images/divider.gif');
+            background-image: url('images/sword.gif');
             background-repeat: no-repeat;
-            background-position: left center;
+			background-size: 0.1;
+            background-position: left;
         }
+        .hearts-list {
+            list-style: none;
+            padding-left: 3;
+			background-color: #050505;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .hearts-list li {
+            padding-left: 26px;
+            /* Animated orb bullet */
+            text-align: left;
+			background-color: #050505;
+			font-size: 1.0em;
+            background-image: url('images/heart.gif');
+            background-repeat: no-repeat;
+			background-size: 0.1;
+            background-position: left;
+        }
+        .coin-list {
+            list-style: none;
+            padding-left: 3;
+			background-color: #050505;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .coin-list li {
+            padding-left: 26px;
+            /* Animated orb bullet */
+            text-align: left;
+			background-color: #050505;
+			font-size: 1.0em;
+            background-image: url('images/coin.gif');
+            background-repeat: no-repeat;
+			background-size: 0.1;
+            background-position: left;
+        }		
         .cta {
             margin-top: 30px;
             text-align: center;
@@ -94,17 +143,46 @@
         <main>
             <section id="problem">
                 <h2>Small teams with BIG ideas</h2>
-                <p>
-                    We help you to make sure that your ideas are interpreted by players exactly as intende. To make sure your intentions are seen and recognized. To make sure that your game is fun all the way. By focusing to understand your vision from the get go.
+					<h3>We make sure that</h3>
+					<ul class="hearts-list">
+					<li>your ideas are interpreted by players exactly as intended</li>
+					<li>your intentions are seen and recognized</li>
+					<li>your game is fun all the way</li>
+					</ul>
+					<p>
+					By focusing on your original intentions and vision, and working together as a team, we can avoid typical pitfalls of developer-to-player communication. 
                 </p>
+				<h4>Communication diagram:
+				</h4>
 				<img src="images/diagram.png" alt="Diagram">
+		        <div class="divider">
+		            <img src="images/divider.gif" width="550" height="15" alt="divider">
+		        </div>
             </section>
+			<section id="workflow">
+				<h2>How we playtest</h2>
+                <ul class="coin-list">
+                    <li>Design a non-generic poll to verify specific aspects of the game</li>
+					<li>Playtest until statistically significant results are obtained</li>
+                    <li>Understand and discuss the results</li>
+                    <li>Come up with least invasive & most creative design improvements</li>
+                    <li>Define the expected effects</li>
+                    <li>Repeat the process</li>
+                </ul>
+		        <div class="divider">
+		            <img src="images/divider.gif" width="550" height="15" alt="divider">
+		        </div>
+			</section>
 
             <section id="solution">
                 <h2>The design conversation</h2>
+				<h3>A game is greater than the sum of its parts.</h3>
                 <p>
-					There's too many <a href="https://en.wikipedia.org/wiki/List_of_fallacies">fallacies</a> to be able to reliably find solutions while working in a small team. We're happy to be a part of the conversation in the design process.
+					There are too many <a href="https://en.wikipedia.org/wiki/List_of_fallacies">fallacies</a> to be able to reliably find solutions while working in a small team. We're happy to be a part of the conversation in the design process right when you need. It also goes both ways, as we will walk you through our polling and analysis approach with full transparrency to make sure the tests performed make sense for all parties involved.
                 </p>
+		        <div class="divider">
+		            <img src="images/divider.gif" width="550" height="15" alt="divider">
+		        </div>
             </section>
             
             <section id="services">
@@ -117,6 +195,9 @@
                     <li>Market & competitor analysis</li>
                     <li>Functional testing & bug finding</li>
                 </ul>
+		        <div class="divider">
+		            <img src="images/divider.gif" width="550" height="15" alt="divider">
+		        </div>
             </section>
 
             <section class="cta">
